@@ -799,16 +799,7 @@ section p {
 }
 
 /* ---- Responsive ---- */
-@media (max-width: 768px) {
-  .experience-cards {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .exp-card {
-    max-width: 90%;
-  }
-}
 
 
 /*----------------------contact----------------------*/
