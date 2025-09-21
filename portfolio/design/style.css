@@ -599,44 +599,6 @@ section p {
   color: var(--dark);
 }
 
-.skill-bar {
-  height: 8px;
-  background-color: #f1f3f4;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.skill-progress {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 1s ease-in-out;
-  position: relative;
-}
-
-.skill-percentage {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--dark);
-}
-
-
-.testing .skill-progress {
-  background: linear-gradient(90deg, #3498db, #2980b9);
-}
-
-.testing {
-  border-left-color: #3498db;
-}
-
-.softskills .skill-progress {
-  background: linear-gradient(90deg, #3498db, #2980b9);
-}
-
-.softskills {
-  border-left-color: #3498db;
-}
-
-
 .softskills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
