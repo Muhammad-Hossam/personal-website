@@ -488,29 +488,29 @@
         </a>
       </div>
       
-      <p>&copy; 2025 Muhammad Hossam. All rights reserved.</p>
+      <p> All rights reserved &copy; 2025.</p>
     </div>
   </footer>
 
   <script>
     function fixMailTo(event) {
-      // Check if we're in Edge browser
+      
       const isEdge = navigator.userAgent.includes("Edg");
       
       if (isEdge) {
         event.preventDefault();
         
-        // Try to open Gmail directly instead of mailto:
+        
         window.open("https://mail.google.com/mail/?view=cm&fs=1&to=Mohamedhossam.qc@gmail.com&su=Portfolio%20Inquiry", "_blank");
         
-        // Also provide a fallback
+        
         if (confirm("Edge may redirect incorrectly. Would you like to copy the email address instead?")) {
           navigator.clipboard.writeText("Mohamedhossam.qc@gmail.com").then(() => {
             alert("Email address copied to clipboard!");
           });
         }
       }
-      // For other browsers, let the default mailto: behavior proceed
+      
     }
     
     document.addEventListener('DOMContentLoaded', function() {
